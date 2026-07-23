@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'LawKnowledge',
   description: '法律知识库 - 法规条文、解读与案例整理',
   lang: 'zh-CN',
-  base: '/',
+  base: '/LawKnowledge/',
 
   themeConfig: {
     siteTitle: 'LawKnowledge',
