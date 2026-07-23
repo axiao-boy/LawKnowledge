@@ -2,4 +2,4 @@ name = "lawknowledge"
 
 [pages]
   build_command = "npm run docs:build"
-  destination_dir = "docs/.vitepress/dist"
+  pages_build_output_dir = "docs/.vitepress/dist"
