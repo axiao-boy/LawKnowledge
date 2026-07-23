@@ -1,11 +1,13 @@
 node_modules/
-dist/
-build/
-.vitepress/dist/
-*.log
 .DS_Store
 Thumbs.db
+*.log
+
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
