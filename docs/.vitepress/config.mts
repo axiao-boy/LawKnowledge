@@ -31,7 +31,6 @@ export default defineConfig({
       }
     },
     nav: [
-      { text: '首页', link: '/' },
       { text: '公共资源', link: '/public/' }
     ],
     sidebar: {
@@ -44,9 +43,6 @@ export default defineConfig({
           items: [
             { text: '劳动纠纷', link: '/labor-law/' },
             { text: '劳动仲裁', link: '/labor-law/zhongcai/' }]
-        },
-        {
-          text: '公共资源'
         }
       ]
     },
