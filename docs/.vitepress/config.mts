@@ -53,6 +53,10 @@ export default defineConfig({
     footer: {
       message: '基于 VitePress 构建',
       copyright: '2026 LawKnowledge. All rights reserved.'
+    },
+    editLink: {
+      pattern: 'https://github.com/axiao-boy/LawKnowledge/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页'
     }
   }
 })
