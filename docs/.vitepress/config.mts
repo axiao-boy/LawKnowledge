@@ -32,18 +32,18 @@ export default defineConfig({
     },
     nav: [
       { text: '首页', link: '/' },
-      { text: '劳动者', link: '/labor-law/' },
       { text: '公共资源', link: '/public/' }
     ],
     sidebar: {
       '/': [
         {
-          text: '首页',
-          items: [{ text: '欢迎页', link: '/' }]
+          items: [{ text: '首页', link: '/' }]
         },
         {
-          text: '劳动者',
-          items: [{ text: '劳动仲裁', link: '/labor-law/zhongcai/' }]
+
+          items: [
+            { text: '劳动纠纷', link: '/labor-law/' },
+            { text: '劳动仲裁', link: '/labor-law/zhongcai/' }]
         },
         {
           text: '公共资源'
