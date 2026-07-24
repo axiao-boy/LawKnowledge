@@ -42,12 +42,11 @@ export default defineConfig({
           items: [{ text: '欢迎页', link: '/' }]
         },
         {
-          text: '劳动者'
-      
+          text: '劳动者',
+          items: [{ text: '劳动仲裁', link: '/labor-law/zhongcai/' }]
         },
         {
           text: '公共资源'
-         
         }
       ]
     },
